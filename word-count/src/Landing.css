@@ -1,0 +1,38 @@
+.left-landing {
+  background-color: #25252d;
+  height: 100vh;
+}
+
+.right-landing {
+  background-color: #d3d3da;
+  height: 100vh;
+}
+
+.landing-head {
+  margin-top: 40vh;
+}
+
+.landing-one {
+  font-weight: bold;
+  color:#fff;
+}
+
+.form-control, .form-control:focus {
+  background-color: transparent;
+}
+
+.form-control:focus {
+  border: none;
+  border-bottom: 1px solid #e4e7eb;
+  box-shadow: none;
+  outline: none;
+}
+
+.form-control {
+  border-bottom: 1px solid #e4e7eb;
+  width: 98%;
+}
+
+form {
+  margin-bottom: 1em;
+}
