@@ -1,10 +1,16 @@
+.background {
+  background: url('image-2.jpg');
+  background-size: cover;
+}
+
 .left-landing {
-  background-color: #25252d;
+  /* background-color: rgba(229,108,105, 0.5); */
+  background-color: rgba(211,211,218, 0.3);
   height: 100vh;
 }
 
 .right-landing {
-  background-color: #d3d3da;
+  background-color: rgba(255,255,255, 0.3);
   height: 100vh;
 }
 
@@ -17,13 +23,18 @@
   color:#fff;
 }
 
+.landing-two {
+  font-weight: bold;
+}
+
 .form-control, .form-control:focus {
+  border: none;
   background-color: transparent;
 }
 
 .form-control:focus {
   border: none;
-  border-bottom: 1px solid #e4e7eb;
+  border-bottom: 2px solid #e4e7eb;
   box-shadow: none;
   outline: none;
 }
@@ -31,6 +42,10 @@
 .form-control {
   border-bottom: 1px solid #e4e7eb;
   width: 98%;
+}
+
+.mb1 {
+  margin-bottom: 1em;
 }
 
 form {
